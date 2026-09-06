@@ -1,0 +1,131 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat/Akrobat-Bold.otf");
+    font-weight: bold;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation {
+    position: relative;
+    margin-top: 40px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 32px;
+    border: 0px;
+    background-color: rgba(25, 100, 107, 1);
+}
+
+.dropdown,
+.navigation-btn {
+    display: block;
+    flex-grow: 1;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.navigation-btn {
+    background-color: transparent;
+    border: 0px;
+    border-right: solid 1px rgba(255, 255, 255, 0.32);
+    color: rgba(255, 255, 255, 0.48);
+    font-family: Akrobat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+
+}
+
+.navigation-btn:hover,
+.navigation-btn:hover #list-icon {
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+#dropdown-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#list-icon {
+    width: 6;
+    height: 4;
+    padding: 0;
+    padding-left: 2px;
+    color: rgba(255, 255, 255, 0.48);
+}
+
+a {
+    text-decoration: none;
+}
+
+.buy {
+    display: block;
+    text-align: center;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.4);
+    font-family: Calibri;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.dropdown .navigation-btn {
+    height: 100%;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: static;
+    width: 100%;
+    background-color: rgba(40, 131, 140, 1);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#contacts-btn {
+    border: 0px;
+}
+
+#tobeclient-btn {
+    min-width: 247px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    padding: 16px 32px 32px 16px;
+    background-color: rgba(247, 164, 32, 1);
+    border-radius: 24px;
+    border: 0px;
+
+    font-family: Akrobat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+
+}

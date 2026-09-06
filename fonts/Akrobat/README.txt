@@ -1,0 +1,1 @@
+A modern Geometric Neo-Grotesque with condensed proportions.

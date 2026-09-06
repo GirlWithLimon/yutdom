@@ -1,0 +1,32 @@
+.paidservices{
+    position: relative;;
+}
+#services-fon{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+.paidservices-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 100, 107, 0.64);
+}
+
+.services{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;  
+    align-items: stretch; 
+}
+
+.service-item{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,155 @@
+.info {
+    margin: 80px auto;
+}
+
+.info-title {
+    display: flex;
+    gap: 24px;
+    font-family: Akrobat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    align-items: center;
+}
+
+#info- {
+    width: 32px;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.bloc-info {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    align-items: stretch;
+    margin-top: 40px;
+}
+
+#more {
+    color: rgba(247, 164, 32, 1);
+    text-decoration: underline solid;
+}
+
+.description-info {
+    gap: 20px;
+    font-family: Calibri;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: rgba(102, 102, 102, 1);
+}
+
+.gramota {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.swiper-wrapper {
+    width: 100%;
+    align-items: center;
+}
+
+.swiper-slide {
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.swiper-slide-prev {
+    transform: scale(0.85) translateX(90%) !important;
+}
+
+.swiper-slide-next {
+    transform: scale(0.85) translateX(-90%) !important;
+}
+.swiper-slide-active {
+    transform: scale(1)  !important;
+}
+
+
+.swiper-slide img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    max-width: 360px;
+    display: block;
+    object-fit: scale-down;
+}
+
+.swiper-slide:not(.swiper-slide-active) img {
+    transition: all 0.3s ease;
+    opacity: 0.24;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: rgba(25, 100, 107, 1);
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    padding-top: 0px;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+
+.swiper-button-disabled {
+    display: none !important;
+}
+
+.swiper-pagination {
+    position: relative !important;
+    padding-top: 40px;
+}
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: rgba(25, 100, 107, 1);
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: rgba(247, 164, 32, 1);
+}
+
+.telegram {
+    width: 255px;
+    height: 64px;
+    display: flex;
+    border-radius: 32px;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(5, 149, 230, 1);
+}
+
+.telegram img {
+    width: 27px;
+    height: 27px;
+}
+
+.telegram p {
+    font-family: Akrobat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
