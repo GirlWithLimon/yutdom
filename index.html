@@ -6,9 +6,12 @@
     <title>УютДом</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="./style/header.css" rel="stylesheet" />
-    <link href="./style/index.css" rel="stylesheet" />
+    <link href="./style/navigation.css" rel="stylesheet" />
     <link href="./style/swiper.css" rel="stylesheet" />
     <link href="./style/services.css" rel="stylesheet" />
+    <link href="./style/news.css" rel="stylesheet" />
+    <link href="./style/message.css" rel="stylesheet" />
+    <link href="./style/style.css" rel="stylesheet" />
 
 </head>
 
@@ -70,7 +73,7 @@
                 </div>
                 <button class="navigation-btn"> Информация для потребителей ЖКУ </button>
                 <button class="navigation-btn" id="contacts-btn"> Контакты </button>
-                <button class="navigation-btn" id="tobeclient-btn"> СТАТЬ КЛИЕНТОМ УК УЮТДОМ </button>
+                <button class="button-orange" id="tobeclient-btn"> СТАТЬ КЛИЕНТОМ УК УЮТДОМ </button>
             </div>
         </div>
         <div class="info">
@@ -127,32 +130,128 @@
             </div>
         </div>
         <div class="paidservices">
-            <img id="services-fon" src="./images/header.jpg" />
-            <div class="paidservices-block">
-                <div class="info-title">
-                    <img src="./images/info-.svg" />
-                    <p>Платные услуги</p>
+            <div class="info-title">
+                <img src="./images/info-.svg" />
+                <p>Платные услуги</p>
+            </div>
+            <div class="services">
+                <div class="service-item">
+                    <div class="icon">
+                        <div class="circle"></div>
+                        <img src="./images/electro.png" />
+                    </div>
+                    <p>Замена счетчиков электроснабжения</p>
+                    <button>Заказать</button>
                 </div>
-                <div class="services">
-                    <div class="service-item">
-                        <img />
-                        <p>j</p>
+                <div class="service-item">
+                    <div class="icon">
+                        <div class="circle"></div>
+                        <img src="/images/battery.png" />
                     </div>
-                     <div class="service-item">
-                        <img />
-                        <p>j</p>
-                    </div>
-                     <div class="service-item">
-                        <img />
-                        <p>j</p>
-                    </div> <div class="service-item">
-                        <img />
-                        <p>j</p>
-                    </div>
+                    <p>j</p>
+                    <button>Заказать</button>
                 </div>
+                <div class="service-item">
+                    <div class="icon">
+                        <div class="circle"></div>
+                        <img src="/images/towel.png" />
+                    </div>
+                    <p>j</p>
+                    <button>Заказать</button>
+                </div>
+                <div class="service-item">
+                    <div class="icon">
+                        <div class="circle"></div>
+                        <img src="/images/schetchik.png" />
+                    </div>
+                    <p>j</p>
+                    <button>Заказать</button>
+                </div>
+            </div>
+            <div class="services-btn">
+                <button class="button-orange">ВСЕ ПЛАТНЫЕ УСЛУГИ</button>
+            </div>
+        </div>
+
+        <div class="news-block">
+            <div class="info-title">
+                <img src="./images/info-.svg" />
+                <p>Доска объявлений</p>
+            </div>
+            <div class="news">
+                <div class="newspart">
+                    <div class="news-item">
+                        <div class="date">
+                            <img src="./images/date-icon.svg" alt="">
+                            <span class="newsDate">15.09.2023</span>
+                        </div>
+                        <p>О справках о составе семьи и ремонте </p>
+                    </div>
+                    <div class="news-item">
+                        <div class="date">
+                            <img src="./images/date-icon.svg" alt="">
+                            <span class="newsDate">15.09.2023</span>
+                        </div>
+                        <p>О справках о составе семьи и ремонте</p>
+                    </div>
+                    <div class="news-item">
+                        <div class="date">
+                            <img src="./images/date-icon.svg" alt="">
+                            <span class="newsDate">15.09.2023</span>
+                        </div>
+                        <p>О справках о составе семьи и ремонте</p>
+                    </div>
+                    <button class="button-orange">Смотреть все новости</button>
+                </div>
+                <img src="./images/GKX.png" alt="">
             </div>
 
         </div>
+        <div class="message">
+            <img src="./images/message-background.png" />
+            <div class="message-block">
+                <div class="info-title">
+                    <img src="./images/info-.svg" />
+                    <p>Написать сообщение</p>
+                </div>
+                <div>
+                    <div class="input-pole">
+                        <img src="./images/message/address.svg" alt="">
+                        <input type="address" placeholder="Выберите адрес *">
+                    </div>
+                    <div class="input-pole">
+                        <img src="./images/message/home.svg" alt="">
+                        <input type="text" placeholder="Введите текст">
+                    </div>
+                </div>
+                <div>
+                    <div class="input-pole">
+                        <img src="./images/message/user.svg" alt="">
+                        <input type="address" placeholder="Выберите адрес *">
+                    </div>
+                    <div class="input-pole">
+                        <img src="./images/message/telefon.svg" alt="">
+                        <input type="text" placeholder="Введите текст">
+                    </div>
+                    <div class="input-pole">
+                        <img src="./images/message/email.svg" alt="">
+                        <input type="text" placeholder="Введите текст">
+                    </div>
+                </div>
+                <div class="input-pole">
+                    <input type="text" placeholder="Введите текст">
+                </div>
+                <button class="file-button">
+                    <img src="" alt="">
+                    <p>Прикрепить файл</p>
+                </button>
+                <div class="agree-pole">
+                    <input type="checkbox">
+                    <p>Отправляя заявку, вы соглашаетесь на обработку ваших персональных данных</p>
+                </div>
+            </div>
+        </div>
+
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

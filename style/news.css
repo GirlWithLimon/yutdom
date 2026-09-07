@@ -1,0 +1,41 @@
+.news-block{
+    margin-top: 80px;
+}
+
+.news{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px; 
+    align-items: stretch;
+}
+.news img{
+    width: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+
+.newspart{    
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.date img{
+    width: 24px;
+    height: 24px;
+}
+.news-item{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 32px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: rgba(242, 247, 247, 1);
+    color: rgba(25, 100, 107, 1);
+}
