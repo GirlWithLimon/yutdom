@@ -5,13 +5,15 @@
     <meta charset="UTF-8" />
     <title>УютДом</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link href="./style/style.css" rel="stylesheet" />
     <link href="./style/header.css" rel="stylesheet" />
     <link href="./style/navigation.css" rel="stylesheet" />
     <link href="./style/swiper.css" rel="stylesheet" />
     <link href="./style/services.css" rel="stylesheet" />
     <link href="./style/news.css" rel="stylesheet" />
     <link href="./style/message.css" rel="stylesheet" />
-    <link href="./style/style.css" rel="stylesheet" />
+    <link href="./style/footer.css" rel="stylesheet" />
 
 </head>
 
@@ -95,6 +97,8 @@
                         располагает
                         штатом профессиональных специалистов для того, чтобы решить такую сложную задачу, как управление
                         многоквартирного дома на самом высоком уровне.
+                    </p>
+                    <p>
                         Техническое обслуживание зданий предполагает постоянный мониторинг состояния всех инженерных
                         коммуникаций объекта (тепло-, водо- и электроснабжение, канализация и др.), ведение переговоров
                         с
@@ -208,52 +212,87 @@
 
         </div>
         <div class="message">
-            <img src="./images/message-background.png" />
+            <img id="background-message" src="./images/message-background.png" />
             <div class="message-block">
-                <div class="info-title">
-                    <img src="./images/info-.svg" />
-                    <p>Написать сообщение</p>
-                </div>
-                <div>
-                    <div class="input-pole">
-                        <img src="./images/message/address.svg" alt="">
-                        <input type="address" placeholder="Выберите адрес *">
+                <div class="messages">
+                    <div class="info-title">
+                        <img src="./images/info-.svg" />
+                        <p>Написать сообщение</p>
+                    </div>
+                    <div id="first-row">
+                        <div class="input-pole">
+                            <img src="./images/message/address.svg" alt="">
+                            <input type="address" placeholder="Выберите адрес *">
+                        </div>
+                        <div class="input-pole">
+                            <img src="./images/message/home.svg" alt="">
+                            <input type="address" placeholder="Введите текст">
+                        </div>
+                    </div>
+                    <div id="second-row">
+                        <div class="input-pole">
+                            <img src="./images/message/user.svg" alt="">
+                            <input type="address" placeholder="Выберите адрес *">
+                        </div>
+                        <div class="input-pole">
+                            <img src="./images/message/telefon.svg" alt="">
+                            <input type="text" placeholder="Введите текст">
+                        </div>
+                        <div class="input-pole">
+                            <img src="./images/message/email.svg" alt="">
+                            <input type="text" placeholder="Введите текст">
+                        </div>
                     </div>
                     <div class="input-pole">
-                        <img src="./images/message/home.svg" alt="">
                         <input type="text" placeholder="Введите текст">
                     </div>
-                </div>
-                <div>
-                    <div class="input-pole">
-                        <img src="./images/message/user.svg" alt="">
-                        <input type="address" placeholder="Выберите адрес *">
+                    <button class="file-button">
+                        <div>
+                            <img src="./images/message/files.svg" alt="">
+                            <p>Прикрепить файл</p>
+                        </div>
+                    </button>
+                    <div class="agree-pole">
+                        <input type="checkbox">
+                        <p>Отправляя заявку, вы соглашаетесь на обработку ваших персональных данных</p>
                     </div>
-                    <div class="input-pole">
-                        <img src="./images/message/telefon.svg" alt="">
-                        <input type="text" placeholder="Введите текст">
-                    </div>
-                    <div class="input-pole">
-                        <img src="./images/message/email.svg" alt="">
-                        <input type="text" placeholder="Введите текст">
-                    </div>
+                    <button class="button-orange">Отправить</button>
+
                 </div>
-                <div class="input-pole">
-                    <input type="text" placeholder="Введите текст">
-                </div>
-                <button class="file-button">
-                    <img src="" alt="">
-                    <p>Прикрепить файл</p>
-                </button>
-                <div class="agree-pole">
-                    <input type="checkbox">
-                    <p>Отправляя заявку, вы соглашаетесь на обработку ваших персональных данных</p>
-                </div>
+
             </div>
         </div>
 
     </main>
-
+    <footer>
+        <div class="footer">
+            <img class="icon" src="./images/icon.png" alt="">
+            <div class="address">
+                ООО "УютДом"<br>
+                Адрес: 300041, г. Тула,<br>
+                ул. Тургеневская, д. 47а, офис 315
+            </div>
+            <div class="contact">
+                <div>
+                    <p class="number-user-name">Диспетчерская:</p>
+                    <p class="phone-number">+7 (4872) 52-00-07</p>
+                </div>
+                <div>
+                    <p class="number-user-name">Диспетчерская:</p>
+                    <p class="phone-number">+7 (4872) 52-00-07</p>
+                </div>
+                <div>
+                    <p class="number-user-name">Диспетчерская:</p>
+                    <p class="phone-number">+7 (4872) 52-00-07</p>
+                </div>
+                <img src="./images/whatsapp_img.svg" alt="">
+                <div>
+                    <p class="number-user-name">Диспетчерская:</p>
+                    <p class="phone-number">+7 (4872) 52-00-07</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./scripts/list.js"></script>
 </body>
