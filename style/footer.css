@@ -1,15 +1,58 @@
-footer{
+footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 248px;
+    box-sizing: border-box;
+    display: flex;
     background-color: rgba(25, 100, 107, 1);
     color: rgba(255, 255, 255, 1);
 }
 
-.footer{
+.footer {
     width: 80%;
-    margin: 0 auto;
+    margin-left: 10%;
     display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    font-family: Akrobat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
 }
 
-.footer .icon{
+.footer .icon {
     width: 88px;
     height: 88px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    align-items: center;
+}
+
+.contact-item {
+    margin: 0 auto;
+}
+
+.contact-item:nth-child(4) {
+    grid-column: 2 / 3;
+}
+
+footer button {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-color: rgba(247, 164, 32, 1);
+}
+
+#telegram {
+    width: 26px;
+    height: 26px;
 }
