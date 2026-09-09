@@ -4,7 +4,15 @@
     font-weight: Bold;
 }
 
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+
 .button-orange {
+    cursor: pointer;
     width: fit-content;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -34,6 +42,7 @@
     line-height: 40px;
     letter-spacing: 0%;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .contact{

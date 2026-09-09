@@ -34,16 +34,15 @@
     width: 80%;
     margin: 56px auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
 
-.logo {
+.header .logo {
     height: 100%;
     display: flex;
     gap: 32px;
-
 }
 
 #logo-img {
@@ -52,6 +51,10 @@
 
 }
 
+.header .contact{
+    margin-left: auto;
+    justify-content: flex-end;
+}
 
 .number-user-name {
     font-family: Calibri;
@@ -64,7 +67,6 @@
 }
 
 #header-text-logo {
-    width: 293px;
     height: 80px;
     font-size: 32px;
     line-height: 40px;

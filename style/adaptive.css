@@ -1,5 +1,7 @@
 @media (max-width: 1750px) {
 
+
+    /*footer */
     .footer-body .contact {
         grid-template-columns: auto auto;
     }
@@ -15,6 +17,13 @@
 
 
 @media (max-width: 1550px) {
+
+    /* swiper*/
+    .description-info span:nth-child(3) {
+        display: none;
+    }
+
+    /*footer */
     .footer {
         padding: 68px 0;
     }
@@ -33,6 +42,8 @@
 }
 
 @media (max-width: 1500px) {
+
+    /*header */
     #header-text-logo {
         font-size: 28px;
         line-height: 36px;
@@ -45,6 +56,8 @@
 }
 
 @media (max-width: 1430px) {
+
+    /*header*/
     #header-text-logo {
         font-size: 24px;
         line-height: 32px;
@@ -63,6 +76,14 @@
 
 
 @media (max-width: 1300px) {
+
+    /*swiper чтоб столбцы стали в другой пропорции*/
+    .bloc-info {
+        grid-template-columns: 1.5fr 1fr;
+    }
+
+
+    /*footer */
     .footer-body {
         gap: 10px;
     }
@@ -75,10 +96,16 @@
         margin: 0;
         padding: 0;
     }
+
+    .services {
+        gap: 16px;
+    }
 }
 
 
 @media (max-width: 1250px) {
+
+    /*header*/
     #logo-img {
         width: 120px;
         height: 120px;
@@ -87,12 +114,9 @@
 }
 
 @media (max-width: 1200px) {
-    #header-text {
-        width: 100%;
-        margin: 56px auto;
-    }
 
 
+    /*footer */
     .footer {
         padding: 24px 0;
     }
@@ -112,41 +136,100 @@
     .up-btn {
         display: none;
     }
+
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1110px) {
+    main {
+        width: 100%;
+    }
+
+    /*header*/
+
     #logo-img {
         width: 80px;
         height: 80px;
     }
+
 
     .header {
         height: 160px;
     }
 
     #header-text {
-        margin: 24px 16px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 24px 16px;
         height: 100%;
-        align-items: stretch;
+        width: 100%;
+        align-items: start;
     }
 
-    .header .menu {
-        display: block;
+    .header .contact {
+        justify-self: center;
+    }
+
+    #header-text-logo {
+        font-size: 16px;
+        line-height: 24px;
+
     }
 
     .header .phone-number {
         font-size: 24px;
         line-height: 32px;
     }
-    .header .whatsapp{
-        margin: 0;
+
+    .header .whatsapp {
+        margin-top: 16px;
     }
+
+    .header .menu {
+        display: block;
+        justify-self: end;
+        margin-left: auto;
+    }
+
+    /*navigation close*/
+    .navigation {
+        display: none;
+    }
+
+    .info {
+        padding: 0 16px;
+    }
+
+
+    /*swiper-part закрываем 2 абзац:) */
+    .description-info span:nth-child(2) {
+        display: none;
+    }
+
+    .bloc-info {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .paidservices {
+        height: fit-content;
+    }
+
+    .paidservices .info-title,
+    .paidservices .services {
+        padding: 0 16px;
+    }
+
 
 }
 
 
 @media (max-width: 860px) {
+
+
+    /*footer */
     .footer {
         height: 128px;
     }
@@ -168,19 +251,71 @@
 }
 
 @media (max-width: 832px) {
+
+    /*header*/
     .header {
         height: 160px;
     }
 
+
+    /*footer */
     .footer-body {
         margin: 0 auto;
         justify-content: space-around;
     }
 }
 
+@media (max-width: 750px) {
+
+    /*header */
+    .header .contact {
+        display: none;
+    }
+
+    .header {
+        height: 128px;
+    }
+
+    #header-text,
+    #header-text-logo {
+        height: 100%;
+        align-items: center;
+        padding: auto 0;
+
+    }
+
+    /*swiper без колонок*/
+    .info {
+        margin-top: 56px;
+        margin-bottom: 42px;
+    }
+
+    .bloc-info {
+        display: block;
+    }
+
+    .gramota {
+        margin-top: 40px;
+    }
+
+}
+
 @media (max-width: 600px) {
+
+    /*footer */
     #icon-yutdom .address {
         display: none;
+    }
+
+}
+
+
+
+@media (max-width: 550px) {
+
+    .services {
+        display: flex;
+        flex-direction: column;
     }
 
 }
