@@ -5,11 +5,7 @@
     margin: 0;
 }
 
-@font-face {
-    font-family: "Akrobat";
-    src: url("../fonts/Akrobat/Akrobat-Bold.otf");
-    font-weight: Bold;
-}
+
 
 main {
     width: 80%;

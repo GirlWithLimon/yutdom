@@ -1,4 +1,4 @@
-footer {
+.footer {
     padding-top: 80px;
     padding-bottom: 80px;
     height: 248px;
@@ -8,51 +8,109 @@ footer {
     color: rgba(255, 255, 255, 1);
 }
 
-.footer {
+.footer-body {
     width: 80%;
     margin-left: 10%;
     display: flex;
     gap: 24px;
-    justify-content: space-between;
     font-family: Akrobat;
     font-weight: 700;
     font-style: Bold;
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0%;
-
+    justify-content: space-between;
 }
 
-.footer .icon {
+
+#icon-yutdom .icon {
     width: 88px;
     height: 88px;
+    margin-right: 50px;
 }
 
-.contact {
+#icon-yutdom {
+    display: flex;
+}
+
+.footer-body .number-user-name,
+.footer-body .brevis-work {
+    font-family: Calibri;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    margin-bottom: 8px;
+}
+
+
+.footer-body .brevis-work {
+    font-size: 12px;
+}
+
+.footer-body .contact {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto auto auto;
     gap: 16px;
-    align-items: center;
 }
 
 .contact-item {
-    margin: 0 auto;
+    width: fit-content;
 }
 
 .contact-item:nth-child(4) {
     grid-column: 2 / 3;
 }
 
-footer button {
+#whatsapp {
+    display: flex;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    gap: 8px;
+}
+
+
+
+.telegram-icon img {
+    padding-top: 50%;
+    width: 26px;
+    height: 26px;
+}
+
+.brevis-work {
+    height: 65px;
+    display: flex;
+    gap: 24px;
+    margin-left: 50px;
+}
+
+.brevis-work img {
+    width: 41px;
+    height: 65px;
+
+}
+
+.brevis-work div{
+    align-self: center;
+}
+
+.up-btn {
+    cursor: pointer;
     box-sizing: border-box;
     margin: 0 auto;
     width: 64px;
     height: 64px;
     border-radius: 32px;
     background-color: rgba(247, 164, 32, 1);
+    border: 0;
 }
 
-#telegram {
-    width: 26px;
-    height: 26px;
+.up-btn img {
+    height: 16px;
+    width: 16px;
 }
+

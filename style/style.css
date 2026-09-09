@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat/Akrobat-Bold.otf");
+    font-weight: Bold;
+}
+
 .button-orange {
     width: fit-content;
     margin-top: 8px;
@@ -32,4 +38,8 @@
 
 .contact{
     color: rgba(255, 255, 255, 1);
+    font-family: Akrobat;
+    font-weight: 700;
+    font-style: Bold;
+    letter-spacing: 0%;
 }

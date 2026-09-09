@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>УютДом</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
@@ -14,10 +15,14 @@
     <link href="./style/news.css" rel="stylesheet" />
     <link href="./style/message.css" rel="stylesheet" />
     <link href="./style/footer.css" rel="stylesheet" />
+    <link href="./style/adaptive.css" rel="stylesheet" />
 
 </head>
 
 <body>
+    <div class="right-menu">
+
+    </div>
     <header class="header">
         <img id="header-img" src="./images/header.jpg" />
         <div class="header-information">
@@ -48,6 +53,7 @@
                         <p id="whatsapp-name">WhatsApp</p>
                     </div>
                 </div>
+                <button class="menu"> </button>
             </div>
         </div>
     </header>
@@ -264,44 +270,58 @@
         </div>
 
     </main>
-    <footer>
-        <div class="footer">
-            <img class="icon" src="./images/icon.png" alt="">
-            <div class="address">
-                ООО "УютДом"<br>
-                Адрес: 300041, г. Тула,<br>
-                ул. Тургеневская, д. 47а, офис 315
+    <footer class="footer">
+        <div class="footer-body">
+            <div id="icon-yutdom">
+                <img class="icon" src="./images/icon.png" alt="">
+                <div class="address">
+                    ООО "УютДом"<br>
+                    Адрес: 300041, г. Тула,<br>
+                    ул. Тургеневская, д. 47а, офис 315
+                </div>
             </div>
+
             <div class="contact">
                 <div class="contact-item">
-                    <p class="number-user-name">Диспетчерская:</p>
-                    <p class="phone-number">+7 (4872) 52-00-07</p>
+                    <p class="number-user-name">Секретарь:</p>
+                    <p class="phone-number">+7 (4872) 70-20-29</p>
                 </div>
                 <div class="contact-item">
                     <p class="number-user-name">Диспетчерская:</p>
                     <p class="phone-number">+7 (4872) 52-00-07</p>
                 </div>
                 <div class="contact-item">
-                    <p class="number-user-name">Диспетчерская:</p>
-                    <p class="phone-number">+7 (4872) 52-00-07</p>
+                    <p class="number-user-name">Абонентский отдел:</p>
+                    <p class="phone-number">+7 (4872) 52-53-32, 52-53-44</p>
                 </div>
-                <div class="contact-item">
+                <div class="contact-item" id="whatsapp">
                     <img src="./images/whatsapp_img.svg" alt="">
+                    <p>WhatsApp</p>
                 </div>
 
             </div>
-            <div>
-                <p class="number-user-name">Диспетчерская:</p>
-                <p class="phone-number">+7 (4872) 52-00-07</p>
+            <div id="contact-dispetcher">
+                <p class="number-user-name">Наша почта:</p>
+                <div class="email">
+                    <img src="./images/email.svg" alt="">
+                    <p class="phone-number">yutdom_11@mail.ru</p>
+                </div>
             </div>
-            <img id="telegram" src="./images/telegram-blue.svg" alt="">
-            <img src="./images/brevis-icon.png" alt="">
-            <div>
-                Разработка корпоративного сайта <br>
-                интернет-агентство BREVIS
+            <div class="telegram-icon">
+                <img src="./images/telegram-blue.svg" alt="">
             </div>
+            <div class="brevis-work">
+                <img src="./images/brevis-icon.png" alt="">
+                <div>
+                    Разработка корпоративного сайта <br>
+                    интернет-агентство BREVIS
+                </div>
+            </div>
+
         </div>
-        <button></button>
+        <button class="up-btn">
+            <img src="./images/up.svg" alt="">
+        </button>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./scripts/list.js"></script>

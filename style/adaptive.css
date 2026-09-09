@@ -1,0 +1,186 @@
+@media (max-width: 1750px) {
+
+    .footer-body .contact {
+        grid-template-columns: auto auto;
+    }
+
+    #icon-yutdom .icon {
+        margin-right: 30px;
+    }
+
+    #brevis-work {
+        margin-left: 30px;
+    }
+}
+
+
+@media (max-width: 1550px) {
+    .footer {
+        padding: 68px 0;
+    }
+
+    #icon-yutdom .address {
+        display: none;
+    }
+
+    #icon-yutdom .icon {
+        margin-right: 20px;
+    }
+
+    #brevis-work {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1500px) {
+    #header-text-logo {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .header .phone-number {
+        font-size: 36px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 1430px) {
+    #header-text-logo {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .header .phone-number {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    #logo-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .footer-body {
+        gap: 10px;
+    }
+
+    #icon-yutdom .icon {
+        margin-right: 8px;
+    }
+
+    .brevis-work {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 1250px) {
+    #logo-img {
+        width: 120px;
+        height: 120px;
+        align-self: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    #header-text {
+        width: 100%;
+        margin: 56px auto;
+    }
+
+
+    .footer {
+        padding: 24px 0;
+    }
+
+    .footer-body {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+
+    .footer-body .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .up-btn {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    #logo-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .header {
+        height: 160px;
+    }
+
+    #header-text {
+        margin: 24px 16px;
+        height: 100%;
+        align-items: stretch;
+    }
+
+    .header .menu {
+        display: block;
+    }
+
+    .header .phone-number {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .header .whatsapp{
+        margin: 0;
+    }
+
+}
+
+
+@media (max-width: 860px) {
+    .footer {
+        height: 128px;
+    }
+
+    .footer-body {
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+
+    .footer-body .contact,
+    #contact-dispetcher,
+    .telegram-icon {
+        display: none;
+    }
+
+    #icon-yutdom .address {
+        display: block;
+    }
+}
+
+@media (max-width: 832px) {
+    .header {
+        height: 160px;
+    }
+
+    .footer-body {
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 600px) {
+    #icon-yutdom .address {
+        display: none;
+    }
+
+}
