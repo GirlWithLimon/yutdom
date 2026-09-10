@@ -140,6 +140,11 @@
     .services {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .newspart {
+        gap: 16px;
+    }
+
 }
 
 
@@ -222,7 +227,23 @@
         padding: 0 16px;
     }
 
+    .news-block {
+        margin: 80px 16px;
+    }
 
+
+}
+
+@media (max-width: 900px) {
+    .news {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .newspart .button-orange {
+        margin-top: 40px;
+    }
 }
 
 

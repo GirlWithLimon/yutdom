@@ -1,34 +1,40 @@
-.news-block{
+.news-block {
     margin-top: 80px;
+    margin-bottom: 124px;
 }
 
-.news{
+.news {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px; 
+    gap: 16px;
     align-items: stretch;
 }
-.news img{
+
+.news .fon {
+    min-height: 548px;
     width: 100%;
     object-fit: cover;
     object-position: right;
 }
 
-.newspart{    
+.newspart {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 40px;
 }
-.date{
+
+.date {
     display: flex;
     align-items: center;
     gap: 8px;
 }
-.date img{
-    width: 24px;
-    height: 24px;
+
+.date img {
+    width: 20px;
+    height: 20px;
 }
-.news-item{
+
+.news-item {
     box-sizing: border-box;
     width: 100%;
     padding: 32px;
@@ -37,5 +43,24 @@
     flex-direction: column;
     gap: 16px;
     background-color: rgba(242, 247, 247, 1);
+    color: rgba(25, 100, 107, 1);
+}
+
+.news-item p {
+    font-family: Calibri;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+}
+
+.news-item .date {
+    font-family: Calibri;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    text-align: center;
     color: rgba(25, 100, 107, 1);
 }
