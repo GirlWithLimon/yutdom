@@ -115,6 +115,10 @@
 
 @media (max-width: 1200px) {
 
+    /*navigation*/
+    .navigation .dropdown-content {
+        padding: 16px 8px;
+    }
 
     /*footer */
     .footer {
@@ -154,10 +158,10 @@
     }
 
     /*right-me*/
-    .rigth-menu{
-       visibility: visible;
+    .rigth-menu {
+        visibility: visible;
     }
-    
+
     /*header*/
 
     #logo-img {
@@ -214,6 +218,7 @@
     .info {
         padding: 0 16px;
     }
+
     .description-info span:nth-child(2) {
         display: none;
     }
