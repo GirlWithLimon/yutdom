@@ -153,6 +153,11 @@
         width: 100%;
     }
 
+    /*right-me*/
+    .rigth-menu{
+       visibility: visible;
+    }
+    
     /*header*/
 
     #logo-img {
@@ -195,21 +200,20 @@
 
     .header .menu {
         display: block;
-        justify-self: end;
         margin-left: auto;
     }
+
 
     /*navigation close*/
     .navigation {
         display: none;
     }
 
-    .navigation .info {
+    /*swiper-part закрываем 2 абзац:) */
+
+    .info {
         padding: 0 16px;
     }
-
-
-    /*swiper-part закрываем 2 абзац:) */
     .description-info span:nth-child(2) {
         display: none;
     }

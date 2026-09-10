@@ -79,7 +79,6 @@
 
 .navigation .dropdown-content {
     display: none;
-    display: flex;
     flex-direction: column;
     box-sizing: border-box;
     padding: 16px 24px;
@@ -90,7 +89,7 @@
 }
 
 .navigation .dropdown:hover .dropdown-content {
-    display: block;
+    display: flex;
 }
 
 .navigation #contacts-btn {
