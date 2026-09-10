@@ -1,5 +1,3 @@
-
-
 .navigation {
     position: relative;
     margin-top: 40px;
@@ -40,10 +38,13 @@
     cursor: pointer;
 }
 
-.navigation #dropdown-text {
+
+
+.navigation .dropdown-text {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 8px;
 }
 
 .navigation #list-icon {
@@ -54,11 +55,8 @@
     color: rgba(255, 255, 255, 0.48);
 }
 
-
-
 .navigation .buy {
-    display: block;
-    text-align: center;
+    padding: 8px 0;
     border-bottom: solid 1px rgba(255, 255, 255, 0.4);
     font-family: Calibri;
     font-weight: 400;
@@ -69,6 +67,11 @@
     color: rgba(255, 255, 255, 1);
 }
 
+.navigation .buy:last-child {
+    border: 0;
+}
+
+
 .navigation .dropdown .navigation-btn {
     height: 100%;
     width: 100%;
@@ -76,6 +79,10 @@
 
 .navigation .dropdown-content {
     display: none;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 16px 24px;
     position: static;
     width: 100%;
     background-color: rgba(40, 131, 140, 1);

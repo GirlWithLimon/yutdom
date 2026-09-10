@@ -1,7 +1,81 @@
-.right-menu{
+.right-menu {
+    display: none;
+
     position: fixed;
     height: 100vh;
-    width: 10%;
+    width: 464px;
+    padding: 48px 24px;
+    gap: 24px;
+    align-items: start;
+    flex-direction: column;
+    gap: 24px;
     z-index: 5;
     background-color: rgba(25, 100, 107, 1);
+}
+
+.right-menu .buy {
+    padding: 8px 0;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.4);
+    font-family: Calibri;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+.right-menu .buy:last-child{
+    border: 0;
+}
+
+
+.right-menu .dropdown-content {
+    box-sizing: border-box;
+    padding: 16px 24px;
+    width: 100%;
+    background-color: rgba(40, 131, 140, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.right-menu .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.right-menu .dropdown-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.right-menu .navigation-btn {
+    background-color: transparent;
+    border: 0px;
+    color: rgba(255, 255, 255, 0.48);
+    font-family: Akrobat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.right-menu .phone-number {
+    font-family: Akrobat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.right-menu .whatsapp {
+    margin-top: 32px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-size: 24px;
+    line-height: 24px;
 }
