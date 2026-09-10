@@ -1,8 +1,4 @@
-main {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .navigation {
     position: relative;
@@ -15,15 +11,15 @@ main {
     background-color: rgba(25, 100, 107, 1);
 }
 
-.dropdown,
-.navigation-btn {
+.navigation .dropdown,
+.navigation .navigation-btn {
     display: block;
     flex-grow: 1;
     box-sizing: border-box;
     max-width: 100%;
 }
 
-.navigation-btn {
+.navigation .navigation-btn {
     background-color: transparent;
     border: 0px;
     border-right: solid 1px rgba(255, 255, 255, 0.32);
@@ -38,19 +34,19 @@ main {
 
 }
 
-.navigation-btn:hover,
-.navigation-btn:hover #list-icon {
+.navigation .navigation-btn:hover,
+.navigation .navigation-btn:hover #list-icon {
     color: rgba(255, 255, 255, 1);
     cursor: pointer;
 }
 
-#dropdown-text {
+.navigation #dropdown-text {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#list-icon {
+.navigation #list-icon {
     width: 6;
     height: 4;
     padding: 0;
@@ -58,11 +54,9 @@ main {
     color: rgba(255, 255, 255, 0.48);
 }
 
-a {
-    text-decoration: none;
-}
 
-.buy {
+
+.navigation .buy {
     display: block;
     text-align: center;
     border-bottom: solid 1px rgba(255, 255, 255, 0.4);
@@ -75,12 +69,12 @@ a {
     color: rgba(255, 255, 255, 1);
 }
 
-.dropdown .navigation-btn {
+.navigation .dropdown .navigation-btn {
     height: 100%;
     width: 100%;
 }
 
-.dropdown-content {
+.navigation .dropdown-content {
     display: none;
     position: static;
     width: 100%;
@@ -88,15 +82,15 @@ a {
     z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
+.navigation .dropdown:hover .dropdown-content {
     display: block;
 }
 
-#contacts-btn {
+.navigation #contacts-btn {
     border: 0px;
 }
 
-#tobeclient-btn {
+.navigation #tobeclient-btn {
 
     font-size: 16px;
     line-height: 16px;

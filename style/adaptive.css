@@ -231,6 +231,12 @@
         margin: 80px 16px;
     }
 
+    .messages {
+        padding: 0 16px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
 
 }
 
@@ -241,6 +247,11 @@
         gap: 40px;
     }
 
+    .news-block {
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+
     .newspart .button-orange {
         margin-top: 40px;
     }
@@ -249,6 +260,26 @@
 
 @media (max-width: 860px) {
 
+    /* message*/
+    .message {
+        height: 912px;
+    }
+
+    .messages {
+        gap: 16px;
+        padding-top: 56px;
+        padding-bottom: 64px;
+    }
+
+
+    #first-row,
+    #second-row {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: 0;
+        padding: 0;
+    }
 
     /*footer */
     .footer {
@@ -317,6 +348,11 @@
 
     .gramota {
         margin-top: 40px;
+    }
+
+    .news-block {
+        margin-top: 56px;
+        margin-bottom: 56px;
     }
 
 }

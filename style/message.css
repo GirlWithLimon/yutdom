@@ -13,6 +13,7 @@
 }
 
 .message-block {
+
     position: absolute;
     top: 0;
     left: 50%;
@@ -22,7 +23,15 @@
     background-color: rgba(25, 100, 107, 0.64);
 }
 
+.messages .info-title {
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+
+}
+
 .messages {
+    padding-top: 80px;
+    padding-bottom: 64px;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -39,6 +48,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
 }
+
 #second-row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -54,14 +64,42 @@
     align-items: center;
 }
 
-.input-pole input {
-    border: 0;
+.input-pole input,
+.input-pole input::placeholder,
+#three-row textarea,
+#three-row textarea::placeholder {
+    width: 100%;
+    border: none;
+    outline: none;
     background-color: transparent;
+    font-family: Calibri;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
 }
+
 
 .input-pole img {
     width: 16px;
     height: 21px;
+    padding-right: 16px;
+    border-right: 1px solid rgba(197, 197, 197, 1);
+}
+
+#three-row {
+    min-height: 128px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+}
+
+#three-row textarea {
+    flex: 1;
+    resize: none;
+    padding-right: 20px;
 }
 
 .file-button div {
@@ -93,6 +131,30 @@
     height: 20px;
 }
 
-.message .button-orange{
-    align-self: end;
+.agree-pole {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.agree-pole input {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+
+.agree-pole p {
+    font-family: Calibri;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    margin-left: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.message .button-orange {
+    justify-self: end;
+    margin-left: auto;
 }

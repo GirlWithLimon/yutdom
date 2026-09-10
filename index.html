@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <link href="./style/style.css" rel="stylesheet" />
+    <link href="./style/right-menu.css" rel="stylesheet" />
+
     <link href="./style/header.css" rel="stylesheet" />
     <link href="./style/navigation.css" rel="stylesheet" />
     <link href="./style/swiper.css" rel="stylesheet" />
@@ -15,13 +17,35 @@
     <link href="./style/news.css" rel="stylesheet" />
     <link href="./style/message.css" rel="stylesheet" />
     <link href="./style/footer.css" rel="stylesheet" />
+   
     <link href="./style/adaptive.css" rel="stylesheet" />
 
 </head>
 
 <body>
     <div class="right-menu">
+        <button class="navigation-btn"> НА ГЛАВНУЮ </button>
+        <button class="navigation-btn"> О КОМПАНИИ </button>
+        <div class="dropdown">
+            <button class="navigation-btn">
+                <div id="dropdown-text">
+                    ПЛАТНЫЕ УСЛУГИ
+                    <svg id="list-icon" width="6" height="3" viewBox="0 0 6 3" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.59814 3L5.19622 0H6.84261e-05L2.59814 3Z" fill="currentColor" />
+                    </svg>
 
+                </div>
+            </button>
+            <div class="dropdown-content">
+                <a class="buy" href="#">Пункт 1</a>
+                <a class="buy" href="#">Пункт 2</a>
+                <a class="buy" href="#">Пункт 3</a>
+            </div>
+        </div>
+        <button class="navigation-btn"> Информация для потребителей ЖКУ </button>
+        <button class="navigation-btn" id="contacts-btn"> Контакты </button>
+        <button class="button-orange" id="tobeclient-btn"> СТАТЬ КЛИЕНТОМ УК УЮТДОМ </button>
     </div>
     <header class="header">
         <img id="header-img" src="./images/header.jpg" />
@@ -251,8 +275,8 @@
                             <input type="text" placeholder="Введите текст">
                         </div>
                     </div>
-                    <div class="input-pole">
-                        <input type="text" placeholder="Введите текст">
+                    <div class="input-pole" id="three-row">
+                        <textarea type="text" placeholder="Введите текст"></textarea>
                     </div>
                     <button class="file-button">
                         <div>
@@ -263,8 +287,9 @@
                     <div class="agree-pole">
                         <input type="checkbox">
                         <p>Отправляя заявку, вы соглашаетесь на обработку ваших персональных данных</p>
+                        <button class="button-orange">Отправить</button>
                     </div>
-                    <button class="button-orange">Отправить</button>
+
 
                 </div>
 

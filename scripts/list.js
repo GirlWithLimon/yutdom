@@ -27,3 +27,13 @@ const swiper = new Swiper('.my-slider', {
         prevEl: ".swiper-button-prev",
     },
 });
+
+const btn = document.getElementsByClassName("up-btn")[0];
+btn.addEventListener('click',() =>{
+    window.scrollTo({top:0, behavior: 'smooth'})
+})
+
+const btn_menu = document.getElementsByClassName("menu")[0];
+btn.addEventListener('click',() =>{
+    window.scrollTo({top:0, behavior: 'smooth'})
+})
